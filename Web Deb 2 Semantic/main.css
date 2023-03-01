@@ -1,0 +1,34 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+header {
+    background-color: teal;
+    color: black;
+    padding: 20px;
+    grid-area: header;
+}
+
+nav {
+    background-color: olivedrab;
+    grid-area: nav;
+}
+
+
+main {
+    background-color: mediumvioletred;
+    color: white;
+    grid-area: main;
+}
+
+aside {
+    background-color: lightgreen;
+    grid-area: aside;
+}
+
+footer {
+    background-color: darkgreen;
+    color: white;
+    grid-area: footer;
+}

@@ -1,0 +1,21 @@
+body {
+    display: grid;
+    grid-template-columns: 15% 35% 35% 15%;
+    grid-auto-rows: auto;
+    grid-template-areas: 
+        "header header header header"
+        "nav nav nav nav"
+        "main main main aside"
+        "footer footer footer footer"
+}
+
+header a {
+    display: none;
+}
+
+nav ul {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    text-align: center;
+}
